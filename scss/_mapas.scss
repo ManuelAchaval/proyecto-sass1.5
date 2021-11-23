@@ -1,0 +1,13 @@
+/***********************mapas********************************/
+$mapa: (
+    titulo: 19px,
+    subtitulo: 15px,
+    espacio: 1.5px
+);
+
+
+@each $llave, $font-size in $mapa {
+    .elemento--#{$llave} {
+        font-size: $font-size;
+    }
+}

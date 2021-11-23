@@ -1,0 +1,180 @@
+/********************************************MEDIAQUERIES*********************************************/
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+
+    header{
+        border-bottom: outset;
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 13px;
+    }
+    }
+    body {
+        background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+        
+    }
+    main{
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    }
+
+
+    h1{
+        box-sizing: border-box;
+        color: #F2F0E4;;
+    }
+    h2{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .grillaContenedora{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: auto auto; 
+        grid-template-areas:
+        "imagenUno imagenDos" 
+        "imagenTres imagenCuatro"
+        " imagenCinco imagenSeis";
+    
+        grid-row-gap: 1px;
+        grid-column-gap: 1px;
+        align-items: center;
+    
+    }
+    .divALaDerecha{
+        height: 30%;
+        color: #ffe8d6ff;
+    }
+    .imagenesNormales {
+        width: 40%;
+    }
+    .sectionIndex{
+        background-size: cover;
+    }
+    .sectionShampooA{
+        background-size: cover;
+    }
+    .sectionJabonesOtrosP{
+        background-size: cover;
+    }
+    .sectionBeneficios{
+        background-size: cover;
+    }
+    .sectionContactos{
+        background-size: cover;
+    }
+    .main{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        &__cards{
+            width: 15rem;
+            padding: 2%;
+            background-color: #D1D9C1
+        }
+        &__video{
+            width: 50%;
+            &:hover{
+                filter: drop-shadow(16px 16px 20px black);
+                transform: scale(1.1);
+            }
+        }
+    }
+    footer img {
+        max-width: 8%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    header{
+        border-radius: 30px;
+    }
+    body{
+        background-color: lavender;
+        padding: 0%;
+        margin: 0%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .manu{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionIndex{
+        background-image: none;
+        background-color: #91D9CC;
+    }
+    .sectionShampooA{
+    background-image: none;
+    background-color: #91D9CC;
+    }
+    .sectionJabonesOtrosP{
+        background-image: none;
+        background-color: #91D9CC;
+    }
+    .sectionContactos{
+    background-image: none;
+    background-color: #91D9CC;
+    }
+    .sectionBeneficios{
+        background-image: none;
+        background-color: #91D9CC;
+    }
+
+    div.divALaDerecha{
+        display: unset;
+        align-self: center;
+        img{
+            display: none;
+        }
+    }
+    .grillaContenedora{
+        display: grid;
+        grid-template-columns: 2fr ;
+        grid-template-rows: auto auto; 
+        grid-template-areas:
+        "imagenUno"
+        "imagenDos" 
+        "imagenTres"
+        "imagenCuatro"
+        " imagenCinco"
+        "imagenSeis";
+        grid-row-gap: 1px;
+        grid-column-gap: 1px;
+        align-items: center;
+    
+    }
+    .main{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        &__cards{
+            width: 15rem;
+            padding: 2%;
+            background-color: #D1D9C1
+        }
+        &__video{
+            width: 50%;
+            &:hover{
+                filter: drop-shadow(16px 16px 20px black);
+                transform: scale(1.1);
+            }
+        }
+    }
+
+footer{
+    font-size: 12px;
+    img{
+        max-width: 10%
+}
+}
+}

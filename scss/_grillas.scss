@@ -1,0 +1,44 @@
+/**********************************GRILLA*******************************************/
+.grillaContenedora{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto; 
+    grid-template-areas:
+    "imagenUno imagenDos imagenTres"
+    "imagenCuatro imagenCinco imagenSeis";
+    
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    align-items: center;
+
+}
+.imagenUno {
+    grid-area: imagenUno;
+    align-items: stretch;
+}
+
+.imagenDos {
+    grid-area: imagenDos;
+    align-items: stretch;
+}
+
+.imagenTres {
+    grid-area: imagenTres;
+    align-items: stretch;
+}
+
+.imagenCuatro {
+    grid-area: imagenCuatro;
+    align-items: stretch;
+}
+
+.imagenCinco {
+    grid-area: imagenCinco;
+    align-items: center;
+
+}
+
+.imagenSeis {
+    grid-area: imagenSeis;
+    align-items: stretch;
+}

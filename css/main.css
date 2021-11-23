@@ -1,0 +1,450 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  scroll-behavior: smooth; }
+
+header {
+  width: 100%; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%; }
+
+main {
+  margin: 1%;
+  padding: 1%;
+  font-family: Montserrat; }
+
+footer {
+  text-align: center;
+  border-bottom: transparent;
+  padding: 1%; }
+  footer img {
+    max-width: 2%; }
+
+/****************************************COLORES*************************************************/
+header nav {
+  background-color: #E7F2CE; }
+
+body {
+  background-color: #D1D9C1; }
+
+main {
+  background-color: #F2F0E4; }
+
+footer {
+  background: #50593E;
+  color: #182603;
+  border: black;
+  border-style: ridge; }
+
+h1 {
+  color: #F2F0E4; }
+
+/****************************************** ANIMACIONES ****************************************/
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100; } }
+
+/**********************************GRILLA*******************************************/
+.grillaContenedora {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "imagenUno imagenDos imagenTres" "imagenCuatro imagenCinco imagenSeis";
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  align-items: center; }
+
+.imagenUno {
+  grid-area: imagenUno;
+  align-items: stretch; }
+
+.imagenDos {
+  grid-area: imagenDos;
+  align-items: stretch; }
+
+.imagenTres {
+  grid-area: imagenTres;
+  align-items: stretch; }
+
+.imagenCuatro {
+  grid-area: imagenCuatro;
+  align-items: stretch; }
+
+.imagenCinco {
+  grid-area: imagenCinco;
+  align-items: center; }
+
+.imagenSeis {
+  grid-area: imagenSeis;
+  align-items: stretch; }
+
+/*********************************************CLASES ID**********************************************/
+.sectionIndex {
+  background-image: url(../multimedia/verde-fondoOscuro.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.sectionShampooA {
+  background-image: url(../multimedia/pelotitas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*height: 25% ;
+    width: 100%;*/ }
+
+.sectionJabonesOtrosP {
+  background-image: url(../multimedia/ramas-finas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*height: 25% ;
+    width: 100%;*/ }
+
+.sectionBeneficios {
+  background-image: url(../multimedia/helicopteros.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*height: 25% ;
+    width: 100%;*/ }
+
+.sectionContactos {
+  background-image: url(../multimedia/espiga-c-bordo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*height: 25% ;
+    width: 100%;*/ }
+
+.divALaDerecha {
+  margin-left: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+.contieneCarrusel {
+  display: flex;
+  justify-content: center; }
+
+.carrusel {
+  width: 35%;
+  margin: 20px; }
+
+.abueloFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.padreFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.contenedorAlMedio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+#notaAlPie {
+  text-align: center;
+  font-style: italic;
+  text-transform: capitalize;
+  margin: 10px;
+  font-size: 13px; }
+
+.imagenesNormales {
+  width: 25%;
+  align-self: center;
+  margin: 1%; }
+
+.manu {
+  display: flex; }
+
+.mayusculas {
+  text-transform: uppercase; }
+
+.negrita {
+  font-weight: bold; }
+
+.centrado {
+  text-align: center; }
+
+.bordeado {
+  border: 2px black solid;
+  margin: 1px;
+  padding: 0px; }
+
+.italica {
+  font-style: italic; }
+
+.botonVolver {
+  display: flex;
+  justify-content: center; }
+
+.parrafoEspaciado {
+  line-height: 2;
+  letter-spacing: 3px; }
+
+.ulEspaciado {
+  margin: 8.5px;
+  padding: 8.5px; }
+
+.liImportante {
+  font-size: 16px !important; }
+
+.h2Titulo {
+  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase; }
+
+.listaParrafo {
+  font-size: 13px !important; }
+
+.h3Decoration {
+  text-decoration: none;
+  background-image: none; }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .main__cards {
+    width: 18rem;
+    padding: 2%;
+    background-color: #D1D9C1; }
+  .main__video {
+    width: 35rem; }
+    .main__video:hover {
+      filter: drop-shadow(16px 16px 20px black);
+      transform: scale(1.1); }
+
+.footer {
+  justify-content: center; }
+  .footer__imgdecoration {
+    text-decoration: none;
+    background-image: none;
+    background-size: 0; }
+
+/***********************mapas********************************/
+.elemento--titulo {
+  font-size: 19px; }
+
+.elemento--subtitulo {
+  font-size: 15px; }
+
+.elemento--espacio {
+  font-size: 1.5px; }
+
+/* caracteristicas particulares */
+h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 26px; }
+
+h2 {
+  font-size: 19px;
+  font-weight: lighter; }
+
+h3 {
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 15px; }
+
+main h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: capitalize; }
+
+ul {
+  margin-left: 4px; }
+  ul li {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 6px; }
+
+form {
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  text-align: center;
+  padding: 1%;
+  width: auto; }
+  form input:focus {
+    width: 200px;
+    transform: scale(1.3, 1.3);
+    font-size: 16px; }
+
+img {
+  width: 100%;
+  align-self: center;
+  margin: 1%; }
+
+img:hover {
+  filter: drop-shadow(16px 16px 20px black);
+  transform: scale(1.1); }
+
+/*video {
+    width: 35rem;
+}
+video:hover{
+    filter: drop-shadow(16px 16px 20px black);
+    transform: scale(1.1);
+}*/
+div {
+  margin: 5px; }
+  div p {
+    text-align: justify, center;
+    font-size: 12px; }
+
+p {
+  margin: 2%; }
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(white, grey);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; }
+
+a:hover,
+a:focus {
+  background-size: 100% 2px; }
+
+/********************************************MEDIAQUERIES*********************************************/
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  header {
+    border-bottom: outset; }
+    header nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 13px; }
+  body {
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%); }
+  main {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); }
+  h1 {
+    box-sizing: border-box;
+    color: #F2F0E4; }
+  h2 {
+    color: black; }
+  a {
+    text-decoration: none;
+    text-transform: uppercase; }
+  .grillaContenedora {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "imagenUno imagenDos"  "imagenTres imagenCuatro" " imagenCinco imagenSeis";
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
+    align-items: center; }
+  .divALaDerecha {
+    height: 30%;
+    color: #ffe8d6ff; }
+  .imagenesNormales {
+    width: 40%; }
+  .sectionIndex {
+    background-size: cover; }
+  .sectionShampooA {
+    background-size: cover; }
+  .sectionJabonesOtrosP {
+    background-size: cover; }
+  .sectionBeneficios {
+    background-size: cover; }
+  .sectionContactos {
+    background-size: cover; }
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .main__cards {
+      width: 15rem;
+      padding: 2%;
+      background-color: #D1D9C1; }
+    .main__video {
+      width: 50%; }
+      .main__video:hover {
+        filter: drop-shadow(16px 16px 20px black);
+        transform: scale(1.1); }
+  footer img {
+    max-width: 8%; } }
+
+@media only screen and (max-width: 320px) {
+  header {
+    border-radius: 30px; }
+  body {
+    background-color: lavender;
+    padding: 0%;
+    margin: 0%; }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+  .manu {
+    display: flex;
+    flex-direction: column; }
+  .sectionIndex {
+    background-image: none;
+    background-color: #91D9CC; }
+  .sectionShampooA {
+    background-image: none;
+    background-color: #91D9CC; }
+  .sectionJabonesOtrosP {
+    background-image: none;
+    background-color: #91D9CC; }
+  .sectionContactos {
+    background-image: none;
+    background-color: #91D9CC; }
+  .sectionBeneficios {
+    background-image: none;
+    background-color: #91D9CC; }
+  div.divALaDerecha {
+    display: unset;
+    align-self: center; }
+    div.divALaDerecha img {
+      display: none; }
+  .grillaContenedora {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "imagenUno" "imagenDos"  "imagenTres" "imagenCuatro" " imagenCinco" "imagenSeis";
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
+    align-items: center; }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .main__cards {
+      width: 15rem;
+      padding: 2%;
+      background-color: #D1D9C1; }
+    .main__video {
+      width: 50%; }
+      .main__video:hover {
+        filter: drop-shadow(16px 16px 20px black);
+        transform: scale(1.1); }
+  footer {
+    font-size: 12px; }
+    footer img {
+      max-width: 10%; } }

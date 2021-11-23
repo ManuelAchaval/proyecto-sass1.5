@@ -1,0 +1,159 @@
+/*********************************************CLASES ID**********************************************/
+.sectionIndex {
+    background-image: url(../multimedia/verde-fondoOscuro.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sectionShampooA {
+    background-image: url(../multimedia/pelotitas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*height: 25% ;
+    width: 100%;*/
+}
+.sectionJabonesOtrosP {
+    background-image: url(../multimedia/ramas-finas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*height: 25% ;
+    width: 100%;*/
+}
+.sectionBeneficios {
+    background-image: url(../multimedia/helicopteros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*height: 25% ;
+    width: 100%;*/
+}
+.sectionContactos {
+    background-image: url(../multimedia/espiga-c-bordo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*height: 25% ;
+    width: 100%;*/
+}
+.divALaDerecha{
+
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+.contieneCarrusel{
+    display: flex;
+    justify-content: center;
+}
+.carrusel{
+    width: 35%;
+    margin: 20px;
+}
+.abueloFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.padreFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.contenedorAlMedio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#notaAlPie{
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 10px;
+    font-size: 13px;
+}
+.imagenesNormales{
+    width: 25%;
+    align-self:center;
+    margin: 1%;
+}
+.manu{
+    display: flex;
+}
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.negrita{
+    font-weight: bold;
+}
+.centrado{
+    text-align: center;
+}
+.bordeado{
+    border: 2px black solid;
+    margin: 1px;
+    padding: 0px;
+}
+.italica{
+    font-style: italic;
+}
+.botonVolver{
+    display: flex;
+    justify-content: center;
+}
+.parrafoEspaciado{
+    line-height:2;
+    letter-spacing: 3px;
+}
+.ulEspaciado{
+    margin: 8.5px;
+    padding: 8.5px;
+}
+.liImportante{
+    font-size: 16px !important;
+}
+.h2Titulo{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.listaParrafo{
+    font-size: 13px !important;
+}
+.h3Decoration{
+    text-decoration: none;
+    background-image: none;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__cards{
+        width: 18rem;
+        padding: 2%;
+        background-color: #D1D9C1
+    }
+    &__video{
+        width: 35rem;
+        &:hover{
+            filter: drop-shadow(16px 16px 20px black);
+            transform: scale(1.1);
+        }
+    }
+}
+.footer{
+    justify-content: center;
+    &__imgdecoration{
+        text-decoration: none;
+        background-image: none;
+        background-size: 0;
+    }
+}
