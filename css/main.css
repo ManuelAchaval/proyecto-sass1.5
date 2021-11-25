@@ -124,6 +124,9 @@ h1 {
   /*height: 25% ;
     width: 100%;*/ }
 
+/*.imgNav{
+    width: 15% !important;
+}*/
 .divALaDerecha {
   margin-left: 60%;
   display: flex;
@@ -257,7 +260,7 @@ h1 {
 
 h2 {
   font-size: 19px;
-  font-weight: lighter; }
+  font-weight: 400; }
 
 h3 {
   text-decoration: underline;
@@ -359,7 +362,8 @@ a:focus {
     align-items: center; }
   .divALaDerecha {
     height: 30%;
-    color: #ffe8d6ff; }
+    color: #ffe8d6ff;
+    margin-top: 70px; }
   .imagenesNormales {
     width: 40%; }
   .sectionIndex {
@@ -417,10 +421,11 @@ a:focus {
     background-color: #91D9CC; }
   .sectionBeneficios {
     background-image: none;
-    background-color: #91D9CC; }
+    background-color: #91D9CC;
+    height: 500px; }
   div.divALaDerecha {
-    display: unset;
-    align-self: center; }
+    align-self: center;
+    margin-top: 200px; }
     div.divALaDerecha img {
       display: none; }
   .grillaContenedora {

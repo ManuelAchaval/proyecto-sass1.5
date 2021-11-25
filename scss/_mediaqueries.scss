@@ -50,6 +50,7 @@
     .divALaDerecha{
         height: 30%;
         color: #ffe8d6ff;
+        margin-top: 70px;
     }
     .imagenesNormales {
         width: 40%;
@@ -128,11 +129,13 @@
     .sectionBeneficios{
         background-image: none;
         background-color: #91D9CC;
+        height: 500px;
     }
 
     div.divALaDerecha{
-        display: unset;
+        
         align-self: center;
+        margin-top: 200px;
         img{
             display: none;
         }
