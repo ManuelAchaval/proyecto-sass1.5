@@ -421,13 +421,14 @@ a:focus {
     background-color: #91D9CC; }
   .sectionBeneficios {
     background-image: none;
-    background-color: #91D9CC;
-    height: 500px; }
+    background-color: #91D9CC; }
   div.divALaDerecha {
-    align-self: center;
-    margin-top: 200px; }
+    display: unset;
+    align-self: center; }
     div.divALaDerecha img {
       display: none; }
+  .fixed-top {
+    position: static !important; }
   .grillaContenedora {
     display: grid;
     grid-template-columns: 2fr;

@@ -129,16 +129,17 @@
     .sectionBeneficios{
         background-image: none;
         background-color: #91D9CC;
-        height: 500px;
     }
 
     div.divALaDerecha{
-        
+        display: unset;
         align-self: center;
-        margin-top: 200px;
         img{
             display: none;
         }
+    }
+    .fixed-top{
+        position: static !important;
     }
     .grillaContenedora{
         display: grid;
