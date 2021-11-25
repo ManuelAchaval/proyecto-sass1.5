@@ -141,6 +141,9 @@
     .fixed-top{
         position: static !important;
     }
+    .botonVolver{
+        display: flex;
+    }
     .grillaContenedora{
         display: grid;
         grid-template-columns: 2fr ;

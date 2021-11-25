@@ -193,7 +193,7 @@ h1 {
   font-style: italic; }
 
 .botonVolver {
-  display: flex;
+  display: none;
   justify-content: center; }
 
 .parrafoEspaciado {
@@ -429,6 +429,8 @@ a:focus {
       display: none; }
   .fixed-top {
     position: static !important; }
+  .botonVolver {
+    display: flex; }
   .grillaContenedora {
     display: grid;
     grid-template-columns: 2fr;
