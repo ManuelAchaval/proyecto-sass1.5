@@ -379,6 +379,7 @@ a:focus {
   .main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center; }
     .main__cards {
       width: 15rem;
@@ -409,19 +410,19 @@ a:focus {
     flex-direction: column; }
   .sectionIndex {
     background-image: none;
-    background-color: #91D9CC; }
+    background-color: #50593E; }
   .sectionShampooA {
     background-image: none;
     background-color: #50593E; }
   .sectionJabonesOtrosP {
     background-image: none;
-    background-color: #91D9CC; }
+    background-color: #50593E; }
   .sectionContactos {
     background-image: none;
-    background-color: #91D9CC; }
+    background-color: #50593E; }
   .sectionBeneficios {
     background-image: none;
-    background-color: #91D9CC; }
+    background-color: #50593E; }
   div.divALaDerecha {
     display: unset;
     align-self: center; }
