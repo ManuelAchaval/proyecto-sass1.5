@@ -56,7 +56,8 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "imagenUno imagenDos imagenTres" "imagenCuatro imagenCinco imagenSeis";
+  grid-template-areas: "imagenUno imagenDos imagenTres"
+  "imagenCuatro imagenCinco imagenSeis";
   grid-row-gap: 20px;
   grid-column-gap: 20px;
   align-items: center; }
@@ -96,37 +97,26 @@ h1 {
   background-image: url(../multimedia/pelotitas.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  /*height: 25% ;
-    width: 100%;*/ }
+  background-size: 100%; }
 
 .sectionJabonesOtrosP {
   background-image: url(../multimedia/ramas-finas.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  /*height: 25% ;
-    width: 100%;*/ }
+  background-size: 100%; }
 
 .sectionBeneficios {
   background-image: url(../multimedia/helicopteros.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  /*height: 25% ;
-    width: 100%;*/ }
+  background-size: 100%; }
 
 .sectionContactos {
   background-image: url(../multimedia/espiga-c-bordo.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  /*height: 25% ;
-    width: 100%;*/ }
+  background-size: 100%; }
 
-/*.imgNav{
-    width: 15% !important;
-}*/
 .divALaDerecha {
   margin-left: 60%;
   display: flex;
@@ -302,13 +292,6 @@ img:hover {
   filter: drop-shadow(16px 16px 20px black);
   transform: scale(1.1); }
 
-/*video {
-    width: 35rem;
-}
-video:hover{
-    filter: drop-shadow(16px 16px 20px black);
-    transform: scale(1.1);
-}*/
 div {
   margin: 5px; }
   div p {
@@ -356,7 +339,9 @@ a:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    grid-template-areas: "imagenUno imagenDos"  "imagenTres imagenCuatro" " imagenCinco imagenSeis";
+    grid-template-areas: "imagenUno imagenDos" 
+    "imagenTres imagenCuatro"
+    " imagenCinco imagenSeis";
     grid-row-gap: 1px;
     grid-column-gap: 1px;
     align-items: center; }
@@ -436,7 +421,12 @@ a:focus {
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows: auto auto;
-    grid-template-areas: "imagenUno" "imagenDos"  "imagenTres" "imagenCuatro" " imagenCinco" "imagenSeis";
+    grid-template-areas: "imagenUno"
+    "imagenDos" 
+    "imagenTres"
+    "imagenCuatro"
+    " imagenCinco"
+    "imagenSeis";
     grid-row-gap: 1px;
     grid-column-gap: 1px;
     align-items: center; }
