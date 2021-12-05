@@ -48,16 +48,22 @@
 .carrusel{
     width: 35%;
     margin: 20px;
+    img:hover{
+        transform: none;
+        filter: none;
+        transition-duration: 0s;
+    }
 }
 .abueloFlex{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 2%;
 }
 .padreFlex{
     display: flex;
     flex-direction: column;
-    justify-content: center ;
+    align-items: center ;
 }
 .contenedorAlMedio {
     display: flex;
@@ -117,6 +123,7 @@
     text-decoration: underline;
     text-align: center;
     text-transform: uppercase;
+    margin: 2%;
 }
 
 .listaParrafo{
@@ -137,11 +144,7 @@
     }
     &__video{
         width: 35rem;
-        &:hover{
-            filter: drop-shadow(16px 16px 20px black);
-            transform: scale(1.1);
         }
-    }
 }
 .footer{
     justify-content: center;
@@ -149,5 +152,13 @@
         text-decoration: none;
         background-image: none;
         background-size: 0;
+    }
+}
+.boton1 {
+    background-color: #D1D9C1;
+    color: black;
+    margin: 1%;
+    &:hover{
+        transform: scale(1.2);
     }
 }
